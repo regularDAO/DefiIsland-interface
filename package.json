@@ -77,7 +77,6 @@
     "react-popper": "^2.2.3",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "^4.0.0",
     "react-spring": "^8.0.27",
     "react-use-gesture": "^6.0.14",
     "react-virtualized-auto-sizer": "^1.0.2",
@@ -129,6 +128,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "react-scripts": "^4.0.3",
     "@venomswap/default-token-list": "^2.1.0"
   }
 }
