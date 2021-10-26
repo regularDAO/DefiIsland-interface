@@ -43,15 +43,15 @@ export const GOVERNANCE_TOKEN: { [chainId in ChainId]: Token } = {
     ChainId.HARMONY_MAINNET,
     '0xEa589E93Ff18b1a1F1e9BaC7EF3E86Ab62addc79',
     18,
-    'VIPER',
-    'Viper'
+    '🏝️',
+    'Defi Island'
   ),
   [ChainId.HARMONY_TESTNET]: new Token(
     ChainId.HARMONY_TESTNET,
     '0x69A655c56087D927eb05247FB56495a0f19B9f70',
     18,
-    'VIPER',
-    'Viper'
+    '🏝️',
+    'Defi Island'
   )
 }
 
@@ -117,8 +117,8 @@ export const PIT_SETTINGS: { [chainId in ChainId]: Record<string, string> } = {
   [ChainId.KOVAN]: { name: '', path: '' },
   [ChainId.BSC_MAINNET]: { name: 'CobraDen', path: '/cobraDen' },
   [ChainId.BSC_TESTNET]: { name: 'CobraDen', path: '/cobraDen' },
-  [ChainId.HARMONY_MAINNET]: { name: 'ViperPit', path: '/viperPit' },
-  [ChainId.HARMONY_TESTNET]: { name: 'ViperPit', path: '/viperPit' }
+  [ChainId.HARMONY_MAINNET]: { name: 'Resort', path: '/viperPit' },
+  [ChainId.HARMONY_TESTNET]: { name: 'Resort', path: '/viperPit' }
 }
 
 export const WEB_INTERFACES: { [chainId in ChainId]: string[] } = {
