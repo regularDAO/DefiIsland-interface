@@ -214,10 +214,10 @@ export default function Pit({
               <RowBetween>
                 <div>
                   <TYPE.black>
-                    Your x{govToken?.symbol} Balance
+                    Your 🏨 Balance
                     {govTokenPitTokenRatio && (
                       <TYPE.italic display="inline" marginLeft="0.25em">
-                        (1 x{govToken?.symbol} = {govTokenPitTokenRatio.toSignificant(4)} {govToken?.symbol})
+                        (1 🏨  = {govTokenPitTokenRatio.toSignificant(4)} {govToken?.symbol})
                       </TYPE.italic>
                     )}
                   </TYPE.black>
@@ -278,7 +278,7 @@ export default function Pit({
               </span>
               <b>Important:</b> Your {govToken?.symbol} rewards will only be visible
               <br />
-              after you withdraw your x{govToken?.symbol} tokens from the pool.
+              after you withdraw your 🏨  tokens from the pool.
               <br />
               <br />
               {pitSettings?.name} does not have any withdrawal fees.

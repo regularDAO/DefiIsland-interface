@@ -142,10 +142,10 @@ export default function ModifiedStakingModal({
         <LoadingView onDismiss={wrappedOnDismiss}>
           <AutoColumn gap="12px" justify={'center'}>
             <TYPE.largeHeader>
-              Withdrawing x{govToken?.symbol} from {pitSettings?.name}
+              Withdrawing 🏨  from {pitSettings?.name}
             </TYPE.largeHeader>
             <TYPE.body fontSize={20}>
-              {parsedAmount?.toSignificant(4)} x{govToken?.symbol}
+              {parsedAmount?.toSignificant(4)} 🏨 
             </TYPE.body>
           </AutoColumn>
         </LoadingView>
@@ -155,7 +155,7 @@ export default function ModifiedStakingModal({
           <AutoColumn gap="12px" justify={'center'}>
             <TYPE.largeHeader>Transaction Submitted</TYPE.largeHeader>
             <TYPE.body fontSize={20}>
-              Withdraw {parsedAmount?.toSignificant(4)} x{govToken?.symbol}
+              Withdraw {parsedAmount?.toSignificant(4)} 🏨 
             </TYPE.body>
           </AutoColumn>
         </SubmittedView>

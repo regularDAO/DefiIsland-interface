@@ -3,7 +3,7 @@
   "description": "Venomswap Interface",
   "homepage": ".",
   "private": true,
-  "dependencies": {
+  "devDependencies": {
     "@ethersproject/experimental": "^5.1.2",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
@@ -94,9 +94,7 @@
     "workbox-expiration": "^6.1.0",
     "workbox-precaching": "^6.1.0",
     "workbox-routing": "^6.1.0",
-    "workbox-strategies": "^6.1.0",
-    "@venomswap/default-token-list": "^2.1.0"
-
+    "workbox-strategies": "^6.1.0"
   },
   "resolutions": {
     "@walletconnect/web3-provider": "1.1.1-alpha.0"
@@ -129,5 +127,8 @@
       "last 1 safari version"
     ]
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@defiisland/default-token-list": "^2.1.0"
+  }
 }
