@@ -18,6 +18,7 @@ import {
   RedirectToAddLiquidity
 } from './AddLiquidity/redirects'
 import Earn from './Earn'
+import Islands from './Islands'
 import EarnArchived from './Earn/Archived'
 import Manage from './Earn/Manage'
 import Pit from './Pit'
@@ -114,7 +115,8 @@ export default function App() {
               <Route exact strict path="/staking" component={Earn} />
               <Route exact strict path="/staking/archived" component={EarnArchived} />
               <Route exact strict path={pitSettings?.path} component={Pit} />
-              {blockchain === Blockchain.ETHEREUM && <Route exact strict path="/vote" component={Vote} />}
+              <Route exact strict path="/islands" component={Islands} />
+              {blockchain !== Blockchain.ETHEREUM && <Route exact strict path="/vote" component={Vote} />}
               <Route exact strict path="/create" component={RedirectToAddLiquidity} />
               <Route exact path="/add" component={AddLiquidity} />
               <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} />

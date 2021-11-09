@@ -216,9 +216,9 @@ export default function Pit({
                   <TYPE.black>
                     Your 🏨 Balance
                     {govTokenPitTokenRatio && (
-                      <TYPE.italic display="inline" marginLeft="0.25em">
+                      <TYPE.small display="inline" marginLeft="0.25em">
                         (1 🏨  = {govTokenPitTokenRatio.toSignificant(4)} {govToken?.symbol})
-                      </TYPE.italic>
+                      </TYPE.small>
                     )}
                   </TYPE.black>
                 </div>

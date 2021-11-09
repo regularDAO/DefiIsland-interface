@@ -129,6 +129,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@defiisland/default-token-list": "^2.1.0"
+    "@venomswap/default-token-list": "^1.0.0",
+    "react-unity-webgl": "^8.6.0"
   }
 }

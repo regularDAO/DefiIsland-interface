@@ -42,7 +42,6 @@ const HeaderFrame = styled.div`
   width: 100%;
   top: 0;
   position: relative;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
   z-index: 2;
   ${({ theme }) => theme.mediaWidth.upToMedium`
@@ -219,6 +218,7 @@ const StyledNavLink = styled(NavLink).attrs({
   width: fit-content;
   margin: 0 12px;
   font-weight: 500;
+  filter: drop-shadow(1px 1px 0px green);
 
   &.${activeClassName} {
     border-radius: 12px;
@@ -358,6 +358,9 @@ export default function Header() {
           </StyledNavLink>
           <StyledNavLink id={`stake-nav-link`} to={`${pitSettings?.path}`}>
             {pitSettings?.name}
+          </StyledNavLink>
+          <StyledNavLink id={`stake-nav-link`} to={'/islands'}>
+            Islands
           </StyledNavLink>
         </HeaderLinks>
       </HeaderRow>
