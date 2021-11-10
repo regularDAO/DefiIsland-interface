@@ -4,10 +4,10 @@ import styled from 'styled-components'
 import Unity, { UnityContext } from "react-unity-webgl";
 
 const unityContext = new UnityContext({
-  loaderUrl: process.env.PUBLIC_URL + "build/Build/island.loader.js",
-  dataUrl: process.env.PUBLIC_URL +"build/Build/island.data",
-  frameworkUrl: process.env.PUBLIC_URL +"build/Build/island.framework.js",
-  codeUrl: process.env.PUBLIC_URL +"build/Build/island.wasm",
+  loaderUrl: process.env.PUBLIC_URL + "/unity/Build/island.loader.js",
+  dataUrl: process.env.PUBLIC_URL +"/unity/Build/island.data",
+  frameworkUrl: process.env.PUBLIC_URL +"/unity/Build/island.framework.js",
+  codeUrl: process.env.PUBLIC_URL +"/unity/Build/island.wasm",
 });
 
 const PageWrapper = styled(AutoColumn)`
